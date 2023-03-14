@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-image: url(../Imagens/Slide1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table, th, td{
+    vertical-align: auto;
+}
+table{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+th {
+    background-color:crimson;
+    color: white;
+    height: 70px;
+  }
+td{
+    background-color: white;
+    color: black;
+}
+.pai{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-between; 
+    flex-direction:center;
+    align-self: flex-end;
+}.filho1, .filho2, .filho3{
+    width: 200px;
+    height: 150px;
+}
+.tb2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    justify-content: center;
+    margin-top: 200 px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+  }
+div { 
+  display: flex;
+  justify-content: center;
+  height: 160px;
+}
+
+/* .img {
+    width: 40px;
+} */
